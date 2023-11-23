@@ -3,6 +3,8 @@
 
 div {
     background-image: url('../img/sfondo.png');
+    background-repeat: repeat-y;
+    background-position: top;
 }
 
 body{
@@ -165,9 +167,22 @@ table{
 }
 
 th {
+
+    padding: 15px;
     color: white;
     background-color: #007790;
     border: 1px solid white;
+}
+
+tr:nth-child(even) {
+    background-color: #eeefef;
+    border-top: 1px solid #cacaca;
+    border-bottom: 1px solid #cacaca;
+}
+
+td {
+
+    padding: 15px;
 }
 
 table p {
